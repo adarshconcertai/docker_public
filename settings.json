@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.indexing": false,
+    "python.analysis.autoImportCompletions": true,
+    "editor.formatOnSave": true,
+    "black-formatter.args": [
+        "--line-length",
+        "110"
+    ],
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "ruff.run": "onSave",
+    "ruff.args": [
+        "\"args\": [\"--config=pyproject.toml\"]"
+    ],
+    "git.confirmSync": false,
+    "path-intellisense.absolutePathToWorkspace": false,
+    "githubPullRequests.createOnPublishBranch": "never",
+    "evenBetterToml.formatter.alignComments": true,
+    "evenBetterToml.formatter.crlf": true,
+    "evenBetterToml.formatter.reorderKeys": true,
+    "evenBetterToml.formatter.reorderArrays": true,
+    "evenBetterToml.formatter.allowedBlankLines": 2,
+    "evenBetterToml.formatter.columnWidth": 88,
+    "terminal.integrated.defaultLocation": "editor",
+    "terminal.integrated.scrollback": 5000,
+    "workbench.editor.limit.value": 5,
+    "workbench.editor.limit.enabled": true,
+    "editor.smoothScrolling": true,
+    "explorer.sortOrder": "filesFirst",
+    "editor.stickyScroll.enabled": true,
+}
